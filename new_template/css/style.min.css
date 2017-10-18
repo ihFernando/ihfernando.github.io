@@ -1,4 +1,4 @@
-  ::-moz-selection {
+::-moz-selection {
       background: #faabab;
       color: #f9f9f9
   }
@@ -410,22 +410,18 @@
     -webkit-transition:opacity .5s;
     transition:opacity .5s
   }
-
   main .owl-prev
   {
     top:55%
   }
-
   main .owl-next
   {
     top:75%
   }
-
   main .owl-prev:hover,main .owl-next:hover
   {
     text-decoration:line-through
   }
-
   .owl-item
   {
     margin-bottom:2%;
