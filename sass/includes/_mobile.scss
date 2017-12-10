@@ -1,0 +1,61 @@
+/*
+
+ =========================================================
+ * Mobile - v1.0.0
+
+ Contém os valores para responsividade de layout
+
+ Obs.: Um estudo mais elaborado está sendo realizado 
+ para a criação deste item.
+ =========================================================
+
+ */
+
+@media (min-width: 320px) and (max-width: 480px) { 
+	.container--full {
+		.column--left, .column--right {
+			width: 100%;
+			height: auto;
+			padding-bottom: 40px;
+		}
+		
+		.line--middle {
+			.column--left {
+				padding-left: 0;
+				padding-bottom: 80px;
+			}
+		}
+
+		.line--top, .line--middle, .line--bottom {
+			height: auto;
+		}
+	}
+}
+
+@media (min-width: 576px) { 
+	.container--full {
+		.column--left, .column--right {
+			width: 100%;
+			height: auto;
+			box-sizing: border-box;
+		}
+	}
+}
+
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) { 
+	.container--full {
+		.column--left, .column--right {
+			width: 50%;
+			height: auto;
+			box-sizing: border-box;
+		}
+	}
+}
+
+@media (min-width: 1200px) { 
+
+}
