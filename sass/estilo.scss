@@ -25,7 +25,12 @@ html, body {
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+}
+
 // Padrões
+.text--dark { color: $cor-2 }
 .text--green { color: $cor-0 }
 .text--green_effect {
 	position: relative;
@@ -47,7 +52,6 @@ html, body {
 	content: '';
 	opacity: 1;
 	top: 0px;
-	color: #fff;
 	transition: .4s $ease-in-quad;
 }
 
@@ -86,6 +90,7 @@ html, body {
 			font-family: 'Lato', sans-serif;
 			font-size: 2em;
 			font-weight: bolder;
+			margin-left: 40px;
 		}
 		h1 + p {
 		    margin-left: 40px;
@@ -97,17 +102,19 @@ html, body {
 	}
 
 	.line--middle {
+		// background: #f50;
 		height: 60vh;
 		.column--left {
 			padding-left: 40px;
 			p {
 				line-height: 1.4;
-				color: #333;
+				color: #272727;
 			}
 		}
 	}
 
 	.line--bottom {
+		// background: #444;
 		text-align: center;
 	}
 
@@ -126,6 +133,17 @@ html, body {
 		float: right;
 		.column--right_wrapper {
 
+		}
+	}
+
+	.change--lang { 
+		text-align: right;
+		padding-right: 40px;
+		a {
+			color: $cor-2;
+			&:hover {
+				color: $cor-0
+			}
 		}
 	}
 }

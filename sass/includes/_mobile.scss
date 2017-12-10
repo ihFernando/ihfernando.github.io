@@ -16,9 +16,15 @@
 		.column--left, .column--right {
 			width: 100%;
 			height: auto;
-			padding-bottom: 40px;
+			padding-bottom: 20px;
 		}
 		
+		.line--top {
+			h1, h3, p {
+				margin: 0
+			}
+		}
+
 		.line--middle {
 			.column--left {
 				padding-left: 0;
@@ -28,6 +34,9 @@
 
 		.line--top, .line--middle, .line--bottom {
 			height: auto;
+		}
+		.change--lang {
+			display: none;
 		}
 	}
 }
