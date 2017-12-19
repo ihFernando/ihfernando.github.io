@@ -1,0 +1,28 @@
+{
+  "name": "ihfernando",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihFernando/ihfernando.github.io.git"
+  },
+  "author": "ihfernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihFernando/ihfernando.github.io/issues"
+  },
+  "homepage": "https://github.com/ihFernando/ihfernando.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
