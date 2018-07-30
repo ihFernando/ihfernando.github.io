@@ -86,7 +86,7 @@ p {
   position: absolute;
   width: 100%;
   height: 20%;
-  bottom: -120px;
+  bottom: -100px;
   left: 0;
   background: url(../img/header__borda-2.png);
   background-repeat: no-repeat;
@@ -347,6 +347,9 @@ $bp-xl : 73em;
   }
   .img--perfil {
     visibility: visible;
-
+  }
+  .intro::before {
+    content: '';
+    bottom: -120px;
   }
 }

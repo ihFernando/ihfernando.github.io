@@ -3,10 +3,11 @@
 */
 
 var mouseX, traX;
-$(document).mousemove(function(e){
-  mouseX = e.pageY;
-  traX = ((8 * mouseX) / 570) + 40;
-  $(".sobre").css({"background-position": traX + "%" + traX + "%"});
+$(window).scroll(function (event) {
+  var scroll = $(window).scrollTop();
+  // mouseX = e.pageY;
+  traX = (scroll / 100);
+  $(".sobre").css({"background-position": "0%" + ((scroll / 10) + 40) + "%"});
 });
 
 /*
