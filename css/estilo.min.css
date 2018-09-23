@@ -64,10 +64,8 @@ p {
 }
 
 .btn:hover {
-  /* background: var(--cor-1); */
   color: var(--cor-3);
   transition: 1s ease-in;
-  /* -webkit-transform: scale(1.1,1.1); */
   transform: scale(1.1,1.1);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -157,9 +155,7 @@ p {
       color: var(--cor-2);
       text-align: center;
     }
-    .entrada__lang {
-
-    }
+    .entrada__lang {}
       .lang__link {
         width: 40px;
         height: 40px;

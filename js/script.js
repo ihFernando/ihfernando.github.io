@@ -11,7 +11,7 @@ $(window).scroll(function (event) {
 });
 
 /*
-  Faz animação na form svg
+  Faz animação na forma svg
 */
 $(document).ready(function() {
   setTimeout( function(){
