@@ -86,7 +86,7 @@ p {
   height: 20%;
   bottom: -100px;
   left: 0;
-  background: url(../img/header__borda-2.png);
+  background: url(../img/header__borda.png);
   background-repeat: no-repeat;
 }
 
@@ -346,6 +346,6 @@ $bp-xl : 73em;
   }
   .intro::before {
     content: '';
-    bottom: -120px;
+    bottom: -150px;
   }
 }
