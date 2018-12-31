@@ -81,12 +81,16 @@ a:visited { color: var(--color-first); }
     text-align: justify;
 }
 
+.fe-break-line {
+    display: block;
+}
+
 /* Grid */
 .fe-container {
     width: 100%;
     min-height: 100%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,5 +116,8 @@ header, main {
 @media (min-height: 768px) {
     .fe-container {
         max-width: 40rem;
+    }
+    .fe-break-line {
+        display: initial;
     }
 }
