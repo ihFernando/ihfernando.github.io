@@ -99,7 +99,7 @@ a:visited { color: var(--color-first); }
     box-sizing: border-box
 }
 .fe-wrapper {
-    margin: 2.5rem 0
+    margin: 2.5rem 0 0
 }
 
 header, main {
