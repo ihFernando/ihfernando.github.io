@@ -1,7 +1,3 @@
 sass
 
-src/node_modules
-
-new/node_modules
-
 .DS_STORE
