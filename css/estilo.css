@@ -135,6 +135,7 @@ header, main {
     z-index: 1000;
     margin: 0;
     opacity: 0;
+    cursor: pointer;
 }
 .fe-swipe__checkbox .fe-swipe__grove {
     position: absolute;
