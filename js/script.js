@@ -50,5 +50,5 @@ const fadeEffect = () => {
             $els[count].classList.add('fe-fade-in__active')
             count += 1
         }
-    }, 1000)
+    }, 500)
 }
