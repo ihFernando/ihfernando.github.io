@@ -178,3 +178,15 @@ header, main {
         text-align: left;
     }
 }
+
+
+.fe-fade-in {
+    opacity: 0;
+    transform: translateY(-5px);
+}
+
+.fe-fade-in__active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.32,.03,.93,.43);
+}

@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!isNight) {
         swipeCondition($swipe)
     }
+
+    fadeEffect()
 })
 
 $swipe.addEventListener('click', () => {
@@ -34,4 +36,19 @@ const swipeMode = isModeOn => {
         document.documentElement.style.setProperty('--color-first', '#bebebe')
         document.documentElement.style.setProperty('--color-third', '#222222')
     }
+}
+
+const fadeEffect = () => { 
+    const $els = document.getElementsByClassName('fe-fade-in')
+
+    let count = 0
+
+    setInterval(() => {
+        if (count === $els.length) {
+            clearInterval(this)
+        } else {
+            $els[count].classList.add('fe-fade-in__active')
+            count += 1
+        }
+    }, 1000)
 }
