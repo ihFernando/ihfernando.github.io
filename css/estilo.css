@@ -167,7 +167,7 @@ header, main {
     background: #444444;
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
     .fe-container {
         max-width: 40rem;
     }
