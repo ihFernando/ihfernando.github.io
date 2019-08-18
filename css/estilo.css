@@ -147,6 +147,14 @@ header, main {
     border-radius: 9px;
     transition: all ease 200ms;
 }
+.fe-swipe__grove {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.125rem;
+}
+.fe-swipe__grove img {
+    width: 0.75rem;
+}
 .fe-swipe__checkbox input:checked ~ .fe-swipe__grove {
     background: #111111;
 }
