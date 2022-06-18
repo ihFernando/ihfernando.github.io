@@ -2,11 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-footer {
-  position: relative;
-  margin-top: 5rem;
-}
-
 img[class*="fe-about-me__"] {
   width: 10rem;
 }
