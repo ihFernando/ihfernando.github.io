@@ -151,10 +151,9 @@ main {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   width: 100%;
-  bottom: 3rem;
-  left: 0;
+  margin-top: 5rem;
   text-align: center;
 }
 footer div a > img {
