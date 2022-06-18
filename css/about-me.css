@@ -1,0 +1,27 @@
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  position: relative;
+  margin-top: 5rem;
+}
+
+img[class*="fe-about-me__"] {
+  width: 10rem;
+}
+
+@media (min-width: 768px) {
+  img[class*="fe-about-me__"] {
+    position: absolute;
+    width: 15rem;
+  }
+  .fe-about-me__me-picture {
+    top: 4rem;
+    right: -16rem;
+  }
+  .fe-about-me__pets-picture {
+    top: 16em;
+    right: -8rem;
+  }
+}
