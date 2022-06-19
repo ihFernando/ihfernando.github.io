@@ -101,6 +101,7 @@ a.fe-color-default {
   font-family: var(--font-family-diff);
   font-weight: 900;
   letter-spacing: -2px;
+  margin-top: 0;
 }
 .fe-title-2 {
   font-weight: 600;
@@ -131,7 +132,7 @@ a.fe-color-default {
   width: 100%;
   min-height: 100%;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -153,7 +154,6 @@ main {
 footer {
   position: relative;
   width: 100%;
-  margin-top: 5rem;
   text-align: center;
 }
 footer div a > img {
@@ -164,7 +164,7 @@ footer div a > img {
 /* Swipe theme */
 .fe-swipe__checkbox {
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 1rem;
   width: 42px;
   height: 24px;
